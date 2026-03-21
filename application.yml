@@ -49,12 +49,11 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
-      - ANDROID_MUSIC
       - WEB
       - WEBEMBEDDED
     oauth:
       enabled: true
-      skipInitialization: false
+      skipInitialization: true
 
 metrics:
   prometheus:

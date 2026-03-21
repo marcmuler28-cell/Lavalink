@@ -48,6 +48,7 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
+      - TV
       - WEB
       - TVHTML5_SIMPLY
       - MWEB
@@ -55,7 +56,9 @@ plugins:
       - ANDROID_MUSIC
       - WEBEMBEDDED
     oauth:
-      enabled: false
+      enabled: true
+      skipInitialization: false
+      refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
 
 metrics:
   prometheus:

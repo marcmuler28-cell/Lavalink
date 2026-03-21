@@ -48,12 +48,9 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - identifier: MUSIC
-        useOAuth: true
-      - identifier: WEB
-        useOAuth: true
-      - identifier: WEBEMBEDDED
-        useOAuth: true
+      - MUSIC
+      - WEB
+      - WEBEMBEDDED
     oauth:
       enabled: true
       skipInitialization: true

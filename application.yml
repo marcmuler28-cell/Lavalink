@@ -6,8 +6,8 @@ server:
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
-      snapshot: false
+    - dependency: "dev.lavalink.youtube:youtube-plugin:ab5062530eca741d13fd8d1c414ff53cde7c4448"
+      snapshot: true
   server:
     password: "migajeros123"
     sources:

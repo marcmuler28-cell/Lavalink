@@ -49,6 +49,8 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
+      - ANDROID
+      - ANDROID_MUSIC
       - WEB
       - WEBEMBEDDED
 

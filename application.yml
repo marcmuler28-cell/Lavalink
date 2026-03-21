@@ -54,6 +54,7 @@ plugins:
     oauth:
       enabled: true
       skipInitialization: true
+      refreshToken: ${YOUTUBE_REFRESH_TOKEN:}
 
 metrics:
   prometheus:
